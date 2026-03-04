@@ -1,0 +1,63 @@
+# =========================
+# SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# PYTHON
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# R
+# =========================
+.Rhistory
+.RData
+.Ruserdata
+
+# renv
+renv/library/
+renv/staging/
+
+# =========================
+# VSCODE
+# =========================
+.vscode/
+
+# =========================
+# ARCHIVOS TEMPORALES
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# DATOS GRANDES (si no se versionan)
+# =========================
+data/raw/
+data/tmp/
+qdrant_data/
+
+# =========================
+# SALIDAS DE MODELOS
+# =========================
+modelos/
+outputs/
+resultados/
+
+# =========================
+# ARCHIVOS DE SISTEMA
+# =========================
+*.swp
+*.swo
