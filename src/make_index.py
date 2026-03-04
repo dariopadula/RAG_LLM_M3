@@ -1,3 +1,10 @@
+
+#######################
+## La idea de este código es cargar los datos, generar el diccionario como records,
+## Genera la base de datos "qdrant" en ath="qdrant_data"
+## Luego cargo cargo la data en qdrant, con los embbeadings el ID y el texto
+
+
 import pandas as pd
 df = pd.read_csv('top_rated_wines.csv')
 df = df[df['variety'].notna()] # remove any NaN values as it blows up serialization

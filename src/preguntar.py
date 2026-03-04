@@ -1,4 +1,10 @@
 
+###################################
+## Este codigo ya toma la base con los embbedings generada en el codigo "make_index"
+## Realiza la parte de búsqueda usando el embbeding de la pregunta y los que están en el indice
+## Con lo que debuelve la búsquyeda + la pregunta + instrucciones genera el promp y se lo pasa al modelo de lenguaje
+## El modelo responde usando la info del contexto  
+
 
 from qdrant_client import models, QdrantClient
 from sentence_transformers import SentenceTransformer
